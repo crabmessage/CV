@@ -21,11 +21,9 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/qq767308865'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "期望职位：PHP、前端" #文本内容
+- text: "期望城市与职位：广州√————PHP√、前端√" #文本内容
   icon: "icons/location.svg"
 - text: "期望薪资：2k~5k" #文本内容
-  icon: "icons/location.svg"
-- text: "期望城市：广州" #文本内容
   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
@@ -127,7 +125,7 @@ others: #其他列表显示
   content: #选择需要的格式
   - 能 力：熟悉科学上网√、专业实践成绩良好，有着良好的编程能力以及扎实的计算机原理基础知识,喜欢研究新的东西，善于动手实践，能够较快适应学习新的知识。
   - 性 格：乐于与他人合作，与他人沟通，有良好的团队意识。可以自主学习，不断学习新的知识技能，对待工作认真负责。
-  
+ 
 - type: others #ID可以为空
   name: '结语'
   content: #选择需要的格式
