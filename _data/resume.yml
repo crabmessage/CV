@@ -78,24 +78,17 @@ main: #简历主要内容，
 - type: projects
   name: 项目经验
   content:
-  - title: WordPress框架搭建博客实践经验
-    duration: "www.liangzz.xyz"
+  - title: WordPress||Discuz框架搭建博客实践经验
+    duration: "个人建站"
     tags:
+    - www.lzznb.cn
+    - www.liangzz.xyz
     - HTML+CSS
     - PHP+MySQL
     - JavaScript
-    detail: 掌握WordPress框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、归纳和处理。
+    detail: 掌握WordPress||Discuz框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、二次开发归纳和处理。
     sub: 独立开发
     
-
-  - title: Discuz框架搭建文学论坛实践经验
-    duration: "www.lzznb.cn"
-    tags:
-    - HTML+CSS
-    - PHP+MySQL
-    - JavaScript
-    detail: 掌握Discuz框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、二次开发归纳和处理。
-    sub: 独立开发
     
   - title: 基于ThinkPHP框架的电商商城
     duration: "期末作业"
