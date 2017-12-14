@@ -78,8 +78,8 @@ main: #简历主要内容，
 - type: projects
   name: 项目经验
   content:
-  - title: WordPress||Discuz框架搭建博客实践经验
-    duration: "个人建站"
+  - title: WordPress||Discuz框架建站实践经验
+    duration: "博客与文学论坛"
     tags:
     - www.lzznb.cn
     - www.liangzz.xyz
