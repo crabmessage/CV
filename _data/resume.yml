@@ -107,7 +107,6 @@ main: #简历主要内容，
     sub: 独立开发
 
 
-others: #其他列表显示
 - type: 
   name: '证书奖项'
   content: #选择需要的格式
