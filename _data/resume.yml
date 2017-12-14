@@ -1,131 +1,156 @@
---- 
-contact: 
-  - 
-    href: "mailto:cropflre@163.com"
-    icon: icons/email.svg
-    text: cropflre@163.com
-  - 
-    href: "tel:18820671055"
-    icon: icons/phone.svg
-    text: 18820671055(湛江)
-  - 
-    href: "http://liangzz.xyz/"
-    icon: icons/web.svg
-    text: www.liangzz.xyz
-  - 
-    attr: target="_blank"
-    href: "https://github.com/qq767308865"
-    icon: icons/github.svg
-    text: cropflre
-footer: 
-  print: ~
-  screen: 
-    - 
-      text: 简历脚注
-    - 
-      href: "https://github.com/RaynaYe/CV/"
-      text: "Made with ♥ by Si Ye"
-jobtitle: PHP
-lang: zh
-main: 
-  - 
-    content: 
-      - 
-        detail: 计算机网络技术专业/专科
-        duration: "2015年9月 - 2018年7月"
-        sub: 广州
-        title: 广东南华工商职业学院
-    name: 教育
-    type: education
-  - 
-    content: 
-      - 
-        items: 
-          - HTML+CSS
-          - PHP+MySQL
-          - JavaScript
-        title: 编程语言
-      - 
-        items: 
-          - Pyhon入门
-          - Java入门
-        title: 自学技能
-      - 
-        summary: 
-          - 《C语言开发入门教程》
-          - 《HTML+CSS+JavaScript网页制作案例教程》
-          - 《PHP网站开发实例教程》
-          - 《计算机组装与维护教程》
-          - "《Windows Server 2008系统管理与网络管理》"
-          - 《linux高级应用》
-          - 《网络设备配置与调试项目实训》
-          - 《Mysql数据库入门》
-        title: 主要课程
-    name: 技能
-    type: skills
-  - 
-    content: 
-      - 
-        detail: "暑假工作期间，协助完成过产品的美工, 具备较强的PS实操能力以及极简风格的审美观，熟悉产品上线流程。"
-        duration: "2016年7月 - 2016年9月"
-        sub: 深圳
-        summary: 产品美化、产品海报以及宣传单制作
-        tags: 
-          - Photoshop
-          - "Adobe fireworks"
-          - "Microsoft Office"
-        title: 深圳市天珑园林绿化有限公司产品美编助理
-    name: 工作经验
-    type: experience
-  - 
-    content: 
-      - 
-        title: WordPress框架搭建博客实践经验
-      - 
-        detail: 掌握WordPress框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、归纳和处理。
-        duration: WordPress
-        href: "http://liangzz.xyz/"
-        sub: 独立开发
-        tags: 
-          - HTML+CSS
-          - PHP+MySQL
-          - JavaScript
-        text: www.liangzz.xyz
-      - 
-        title: Discuz框架搭建文学论坛实践经验
-      - 
-        detail: 掌握Discuz框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、二次开发归纳和处理。
-        duration: Discuz
-        href: "http://www.lzznb.cn/"
-        sub: 独立开发
-        tags: 
-          - HTML+CSS
-          - PHP+MySQL
-          - JavaScript
-        text: www.lzznb.cn
-      - 
-        detail: "网站实现了登陆，按目录浏览，发帖，收藏，评论，留言板。 本人负责数据库的搭建和PHP后台的所有开发工作。能独立根据需要设计数据库，能熟练使用Mysql对数据库进行增删改查，能熟练使用PHP进行网站开发。"
-        duration: 期末作业
-        sub: 独立开发
-        tags: 
-          - PHP
-          - MySQL
-          - 前端
-        title: 基于ThinkPHP框架的电商商城
-    name: 项目经验
-    type: projects
-name: 梁智钊
-others: 
-  - 
-    content: 
-      - 广东南华工商职业学院笔韵文学社宣传部部长
-      - 
-        items: 
-          - PRETCO英语B级
-          - C1驾驶证
-        title: "证书:"
-    name: 证书奖项
-    type: others
+# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
+# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
+
+title: "个人简历"
+lang: "zh"
+name: "梁智钊"
+jobtitle: "PHP"
 photo: "http://liangzz.xyz/wp-content/uploads/2017/12/2017121417283449.jpg"
-scripts: ~
-title: 个人简历
+#联系方式
+contact: #联系方式连接等3~5行
+- text: "cropflre@163.com" #文本内容
+  href: 'mailto:cropflre@163.com' #链接，无链接则空  
+  icon: 'icons/email.svg' #图标 svg文件
+- text: "18820671055(湛江)"
+  href: 'tel:18820671055'
+  icon: 'icons/phone.svg'
+- text: "www.liangzz.xyz"
+  href: 'http://liangzz.xyz/'
+  icon: 'icons/web.svg'
+- text: "cropflre"
+  href: 'https://github.com/qq767308865'
+  icon: "icons/github.svg"
+  attr: 'target="_blank"' #新标签页打开
+  # - text: "地址"
+  #   icon: "icons/location.svg"
+
+#main下面是主体内容，类别条数不限
+main: #简历主要内容，
+- type: education #类别为ID
+  name: 教育 #显示名称，空则使用type
+  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
+  - title: 广东南华工商职业学院
+    duration: "2015年9月 - 2018年7月"
+    sub: 广州
+    detail: 计算机网络技术专业/专科
+
+- type: skills
+  name: "技能"
+  content:
+  - title: 编程语言
+    items: #itmems 可以小块的方式显示
+    - HTML+CSS
+    - PHP+MySQL
+    - JavaScript
+    
+  - title: 自学技能
+    items: #itmems 可以小块的方式显示
+    - Pyhon入门
+    - Java入门
+    
+  - title: 主要课程
+    summary:
+    - 《C语言开发入门教程》
+    - 《HTML+CSS+JavaScript网页制作案例教程》
+    - 《PHP网站开发实例教程》
+    - 《计算机组装与维护教程》
+    - 《Windows Server 2008系统管理与网络管理》
+    - 《linux高级应用》
+    - 《网络设备配置与调试项目实训》
+    - 《Mysql数据库入门》
+
+- type: experience
+  name: 工作经验
+  content:
+  - title: 深圳市天珑园林绿化有限公司产品美编助理
+    sub: 深圳
+    duration: "2016年7月 - 2016年9月"
+    tags:
+    - Photoshop
+    - Adobe fireworks
+    - Microsoft Office
+
+    summary: 产品美化、产品海报以及宣传单制作
+    detail: 暑假工作期间，协助完成过产品的美工, 具备较强的PS实操能力以及极简风格的审美观，熟悉产品上线流程。
+    # open: open
+    #可以设置open默认展开
+ 
+- type: projects
+  name: 项目经验
+  content:
+  - title: WordPress框架搭建博客实践经验
+  - text: "www.liangzz.xyz"
+    href: 'http://liangzz.xyz/'
+    duration: "WordPress"
+    tags:
+    - HTML+CSS
+    - PHP+MySQL
+    - JavaScript
+    detail: 掌握WordPress框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、归纳和处理。
+    sub: 独立开发
+    
+
+  - title: Discuz框架搭建文学论坛实践经验
+  - text: "www.lzznb.cn"
+    href: 'http://www.lzznb.cn/'
+    duration: "Discuz"
+    tags:
+    - HTML+CSS
+    - PHP+MySQL
+    - JavaScript
+    detail: 掌握Discuz框架的基本架构，能读懂文档，能熟练利用参数进行代码的修改、二次开发归纳和处理。
+    sub: 独立开发
+    
+  - title: 基于ThinkPHP框架的电商商城
+    duration: "期末作业"
+    tags:
+    - PHP
+    - MySQL
+    - 前端
+    detail: 网站实现了登陆，按目录浏览，发帖，收藏，评论，留言板。 本人负责数据库的搭建和PHP后台的所有开发工作。能独立根据需要设计数据库，能熟练使用Mysql对数据库进行增删改查，能熟练使用PHP进行网站开发。
+    sub: 独立开发
+    
+    
+
+    
+
+    
+ # - title: hadoop平台下的MapReduce实践经验(Python)
+  #  summary: hadoop平台下的MapReduce实践经验(Python)
+  #  detail: 在研究生阶段，学习了hadoop系统的处理流程，能熟练利用mapreduce平台进行数据提取，归纳和处理。 例如：从1.5G的数据中提取仅出现过一次的单词，出现最多的句子；对报文文件进行爬虫，输出互相发送最多报文的用户和报文数量等。 理解MapReduce的工作原理，包括Shuffle and Sort过程，combiner的作用等。
+   #   #md: _data/demo.md
+    #sub:开发者
+   #可继续添加更多内容
+   
+  
+
+#others 其他简略内容(列表)
+others: #其他列表显示
+- type: others #ID可以为空
+  name: '证书奖项'
+  content: #选择需要的格式
+  - 广东南华工商职业学院笔韵文学社宣传部部长
+  - title: "证书:"
+    items: #单行列表
+    - PRETCO英语B级
+    - C1驾驶证
+
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  - text: "简历脚注"
+  #   href: '/'
+  - text: "Made with ♥ by Si Ye"
+    href: "https://github.com/RaynaYe/CV/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
