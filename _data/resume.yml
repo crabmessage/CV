@@ -79,9 +79,7 @@ main: #简历主要内容，
   name: 项目经验
   content:
   - title: WordPress框架搭建博客实践经验
-  - text: "www.liangzz.xyz"
-    href: 'http://liangzz.xyz/'
-    duration: "WordPress"
+    duration: "www.liangzz.xyz"
     tags:
     - HTML+CSS
     - PHP+MySQL
@@ -91,9 +89,7 @@ main: #简历主要内容，
     
 
   - title: Discuz框架搭建文学论坛实践经验
-  - text: "www.lzznb.cn"
-    href: 'http://www.lzznb.cn/'
-    duration: "Discuz"
+    duration: "www.lzznb.cn"
     tags:
     - HTML+CSS
     - PHP+MySQL
@@ -147,7 +143,7 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "Made with ♥ by Si Ye"
+  - text: "感谢您花时间阅读我的简历，期待能有机会和您共事。"
     href: "https://github.com/RaynaYe/CV/"
 
 #页面额外js脚本，如xx统计
