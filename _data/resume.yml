@@ -131,8 +131,20 @@ others: #其他列表显示
     - PRETCO英语B级
     - C1驾驶证
 
-#- type: 
-#  name: '其他'
+
+others: #其他列表显示
+- type: others #ID可以为空
+  name: '自我评价'
+  content: #选择需要的格式
+  - 能 力：
+  专业实践成绩良好，有着良好的编程能力以及扎实的计算机原理基础知识。
+  喜欢研究新的东西，善于动手实践，能够较快适应学习新的知识。
+  - 性 格：
+  乐于与他人合作，与他人沟通，有良好的团队意识。
+  可以自主学习，不断学习新的知识技能，对待工作认真负责。
+
+#- type: 自我评价
+# name: '自我评价'
 #  content: #选择需要的格式
 #  - 单行文字
 #  - 如果有可以继续添加
@@ -141,10 +153,10 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  - text: "感谢您花时间阅读我的简历，期待能有机会和您共事"
   #   href: '/'
-  - text: "感谢您花时间阅读我的简历，期待能有机会和您共事。"
-    href: "https://github.com/RaynaYe/CV/"
+  - text: "cropflre"
+    href: "https://github.com/qq767308865"
 
 #页面额外js脚本，如xx统计
 scripts:
