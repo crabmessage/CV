@@ -154,11 +154,5 @@ footer: #脚注多组
   print: #打印版markdown或者html
   screen:
   - text: "感谢您花时间阅读我的简历，期待能有机会和您共事"
-  #   href: '/'
-  - text: "cropflre"
-    href: "https://github.com/qq767308865"
 
-#页面额外js脚本，如xx统计
-scripts:
-#- src: "assets/js/resume.js"
-#  defer: defer #可以设置defer或者sync异步加载
+
