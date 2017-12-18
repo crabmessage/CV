@@ -12,7 +12,7 @@ contact: #联系方式连接等3~5行
   href: 'mailto:cropflre@163.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "18820671055(湛江)"
-  href: 'tel:18820671055'
+  href: 'tel:188-2067-1055'
   icon: 'icons/phone.svg'
 - text: "www.liangzz.xyz"
   href: 'http://liangzz.xyz/'
