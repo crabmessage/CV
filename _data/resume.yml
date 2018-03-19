@@ -3,20 +3,17 @@
 
 title: "个人简历"
 lang: "zh"
-name: "梁智钊"
+name: "a"
 jobtitle: "求职意向：PHP实习"
-photo: "http://liangzz.xyz/wp-content/uploads/2017/12/2017121417283449.jpg"
+photo: ""
 #联系方式
 contact: #联系方式连接等3~5行
 - text: "cropflre@163.com" #文本内容
   href: 'mailto:cropflre@163.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "18820671055(湛江)"
-  href: 'tel:188-2067-1055'
+- text: "1"
+  href: 'tel:1'
   icon: 'icons/phone.svg'
-- text: "www.liangzz.xyz"
-  href: 'http://liangzz.xyz/'
-  icon: 'icons/web.svg'
 - text: "cropflre"
   href: 'https://github.com/qq767308865'
   icon: "icons/github.svg"
