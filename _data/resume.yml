@@ -8,14 +8,14 @@ jobtitle: "求职意向：PHP实习"
 photo: ""
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "cropflre@163.com" #文本内容
-  href: 'mailto:cropflre@163.com' #链接，无链接则空  
+- text: "yuufa@live.cn" #文本内容
+  href: 'yuufa@live.cn' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1"
-  href: 'tel:1'
+- text: "13025320667"
+  href: 'tel:1302530667'
   icon: 'icons/phone.svg'
-- text: "cropflre"
-  href: 'https://github.com/qq767308865'
+- text: "crabmessage"
+  href: 'https://github.com/crabmessage'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
 - text: "期望城市与薪资：广州  | 3k~5k " #文本内容
