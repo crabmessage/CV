@@ -52,3 +52,5 @@ compress_html:
 sass:
   style: compressed
   sass_dir: _sass
+
+theme: jekyll-theme-cayman
