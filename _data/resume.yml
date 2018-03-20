@@ -24,15 +24,15 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育情况 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 广东南华工商职业学院
     duration: "2015年9月 - 2018年7月"
     sub: 广州
-    detail: 计算机网络技术专业/专科
+    detail: 计算机网络技术专业
 
 - type: skills
-  name: "技能"
+  name: "所学技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
@@ -70,9 +70,9 @@ main: #简历主要内容，
 
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '证书奖项'
+  name: '更多信息'
   content: #选择需要的格式
-  - CET-4 CET-6
+  - CET-6，良好阅读能力
   - title: "自我评价:"
     items: #单行列表
     - 本人是计算机网络技术专业毕业生，熟练操作Eclipse、NetBeans IDE 、Notepad ++ 等开发工具，所学的专业课程涉及HTML、CSS、Javascript、PHP、MySQL、Linux等知识，有良好的编程能力以及扎实的计算机原理基础知识。有较好的学习能力和领悟能力善于动手实践，乐于与人沟通。熟悉科学上网，善用Google搜索，常逛Github。
