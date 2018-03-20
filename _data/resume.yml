@@ -18,7 +18,7 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/crabmessage'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "期望城市与薪资：广州  | 3k~5k " #文本内容
+- text: "期望城市与薪资：广州  | 3k~4.5k " #文本内容
   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
@@ -53,19 +53,6 @@ main: #简历主要内容，
     - 《linux高级应用》
     - 《网络设备配置与调试项目实训》
     - 《Mysql数据库入门》
-- type: experience
-  name: 工作经验
-  content:
-  - title: 周末&假期兼职
-    sub: 深圳，广州
-    duration: "2015年11月 - 2017年12月"
-    tags:
-    - 寒暑假
-
-    summary: KFC,Mcdonald
-    detail: 到店完成当日安排的工作，坚守岗位，学习能力强，对新事物感兴趣
-    # open: open
-    #可以设置open默认展开
 
 - type: projects
   name: 项目经验
