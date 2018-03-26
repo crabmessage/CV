@@ -40,15 +40,11 @@ main: #简历主要内容，
     - PHP+MySQL
        
   - title: 主要课程
-    summary:
-    - 《C语言开发入门教程》
-    - 《HTML+CSS+JavaScript网页制作案例教程》
-    
-    - 《PHP网站开发实例教程》
-    - 《linux高级应用》
-    
-    - 《网络设备配置与调试项目实训》
-    - 《Mysql数据库入门》
+    items:
+    - 《C语言开发入门教程》《HTML+CSS+JavaScript网页制作案例教程》
+    - 《PHP网站开发实例教程》《linux高级应用》
+    - 《网络设备配置与调试项目实训》《Mysql数据库入门》
+
 - type: experience
   name: 参赛经历
   content:
