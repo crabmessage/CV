@@ -58,6 +58,16 @@ main: #简历主要内容，
 - type: projects
   name: 项目经验
   content:    
+  - title: 局域网搭建
+    duration: "实训项目"
+    tags:
+    - Cisco Packet Tracer
+    - Virtual network
+    - 路由交换
+    detail: 使用模拟工具Cisco Packet Tracer组建三个小型局域网，使其在各自内部进行信息交换，利用三层交换连接各局域网进行通信
+    sub: 独立实验
+    
+  content:    
   - title: 基于ThinkPHP框架的电商商城
     duration: "期末作业"
     tags:
@@ -67,6 +77,7 @@ main: #简历主要内容，
     - 后端
     detail: 网站实现了注册登陆，按目录浏览，发帖，收藏，评论，留言板。 本人负责数据库的搭建和PHP后台的开发工作。能独立根据需要设计数据库，能熟练使用Mysql对数据库进行增删改查，能熟练使用PHP进行网站开发。
     sub: 小组开发
+ 
 
 
 others: #其他列表显示
