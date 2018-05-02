@@ -66,7 +66,7 @@ main: #简历主要内容，
     - 路由交换
     detail: 使用模拟工具Cisco Packet Tracer组建三个小型局域网，使其在各自内部进行信息交换，利用三层交换连接各局域网进行通信
     sub: 独立实验
-    
+ - type: projects   
   content:    
   - title: 基于ThinkPHP框架的电商商城
     duration: "期末作业"
